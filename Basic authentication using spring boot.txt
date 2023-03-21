@@ -1,0 +1,26 @@
+Spring Security Step By Step :-
+
+Basic spring security :- 
+
+You need to follow 3 steps
+
+1. In your spring boot app you need to paste a depenedency " spring boot starter security ", 
+url(https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security/3.0.4)
+this should be in in your pom.xml file 
+
+2. Now in your application.properties file 
+	paste this two lines :-
+
+spring.security.user.name="Name of your choice"
+spring.security.user.password="password of your choice"
+
+3) just try your api in any browser and you will get a form where it will ask your username that you have set
+in application.propertites 
+
+
+After this enjoy, you have done basic authentication now turn of advance authoriztion stay tuned >:).
+
+
+
+ 
+  
